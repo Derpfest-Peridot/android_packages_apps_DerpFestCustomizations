@@ -33,6 +33,12 @@
         android:summary="@string/use_games_spoof_summary"
         android:defaultValue="true" />    
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_compact_media_player_mode"
+        android:title="@string/qs_compact_media_player_mode_title"
+        android:summary="@string/qs_compact_media_player_mode_summary"
+        android:defaultValue="false"  />
+
     <PreferenceCategory
         android:title="@string/privacy_indicators_title"
         android:summary="@string/privacy_indicators_summary">
