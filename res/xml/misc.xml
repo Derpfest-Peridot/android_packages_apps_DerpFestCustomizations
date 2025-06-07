@@ -15,6 +15,12 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false" />
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_compact_media_player_mode"
+        android:title="@string/qs_compact_media_player_mode_title"
+        android:summary="@string/qs_compact_media_player_mode_summary"
+        android:defaultValue="false"  />
+
     <PreferenceCategory
         android:title="@string/spoofing_title"
         android:summary="@string/spoofing_title_summary">
